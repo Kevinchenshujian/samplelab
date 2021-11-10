@@ -1,0 +1,321 @@
+/* Color tokens*/
+
+$theme-700: #034f49;
+$theme-600: #045d56;
+$theme-primary: #05756c;
+$theme-400: #019e91;
+$theme-300: #5cb6ae;
+$theme-200: #b1e1db;
+$theme-100: #d3efec;
+$theme-70: #e1f9f5;
+$theme-50: #eafdfa;
+
+$dark: #212121;
+$grey-800: #414141;
+$grey-700: #606060;
+$grey-600: #757575;
+$grey-500: #9f9f9f;
+$grey-400: #bdbdbd;
+$grey-300: #dfdfdf;
+$grey-200: #eeeeee;
+$grey-100: #f5f5f5;
+$grey-50: #fafafa;
+
+$warning-red: #f96a6a;
+$attention-orange: #e98e40;
+
+/* Secondary color for Illo and Tags */
+
+$sub-berry: #373f63;
+$sub-cornflower: #899ef8;
+$sub-navy: #174ea6;
+$sub-sapphire: #1a73e8;
+$sub-scarlet: #ea4234;
+$sub-pink: #f2a2a2;
+$sub-orange: #f29900;
+$sub-yellow: #fbbc04;
+$sub-mint: #7ae5d3;
+$sub-lime: #d9ed79;
+
+$sub-light-berry: rgba(55, 63, 99, 0.2);
+$sub-light-cornflower: rgba(137, 158, 248, 0.2);
+$sub-light-navy: rgba(23, 78, 166, 0.2);
+$sub-light-sapphire: rgba(26, 115, 232, 0.2);
+$sub-light-scarlet: rgba(234, 66, 52, 0.2);
+$sub-light-pink: rgba(242, 162, 162, 0.2);
+$sub-light-orange: rgba(242, 153, 0, 0.2);
+$sub-light-yellow: rgba(251, 188, 4, 0.2);
+$sub-light-mint: rgba(122, 229, 211, 0.2);
+$sub-light-lime: rgba(217, 237, 121, 0.2);
+$sub-light-dark: rgba(0, 0, 0, 0.2);
+
+$sub-blue-700: #1b2e45;
+$sub-blue-600: #1f4573;
+$sub-blue-500: #3472bf;
+$sub-blue-400: #4191f2;
+$sub-blue-300: #78b5ff;
+$sub-blue-200: #abd4ff;
+$sub-blue-100: #c4e1ff;
+$sub-blue-50: #deeeff;
+
+$sub-yellow-700: #402f11;
+$sub-yellow-600: #805f22;
+$sub-yellow-500: #de9714;
+$sub-yellow-400: #fab32d;
+$sub-yellow-300: #fbc35b;
+$sub-yellow-200: #ffda96;
+$sub-yellow-100: #ffeac4;
+$sub-yellow-50: #fff3de;
+
+/* theme background color */
+
+.c-theme-700 {
+  background-color: $theme-700;
+}
+
+.c-theme-600 {
+  background-color: $theme-600;
+}
+
+.c-theme-primary {
+  background-color: $theme-primary;
+}
+
+.c-theme-400 {
+  background-color: $theme-400;
+}
+
+.c-theme-300 {
+  background-color: $theme-300;
+}
+
+.c-theme-200 {
+  background-color: $theme-200;
+}
+
+.c-theme-100 {
+  background-color: $theme-100;
+}
+
+.c-theme-50 {
+  background-color: $theme-50;
+}
+
+/* theme search bar boundary color */
+
+.c-search-primary {
+  border: $theme-primary;
+}
+
+/* grey background color */
+
+.c-grey-800 {
+  background-color: $grey-800;
+}
+
+.c-grey-700 {
+  background-color: $grey-700;
+}
+
+.c-grey-600 {
+  background-color: $grey-600;
+}
+
+.c-grey-500 {
+  background-color: $grey-500;
+}
+
+.c-grey-400 {
+  background-color: $grey-400;
+}
+
+.c-grey-300 {
+  background-color: $grey-300;
+}
+
+.c-grey-200 {
+  background-color: $grey-200;
+}
+
+.c-grey-100 {
+  background-color: $grey-100;
+}
+
+.c-grey-50 {
+  background-color: $grey-50;
+}
+
+.c-dark {
+  background-color: $dark;
+}
+
+.c-warning-red {
+  background-color: $warning-red;
+}
+
+.c-attention-orange {
+  background-color: $attention-orange;
+}
+
+.c-sub-berry {
+  background-color: $sub-berry;
+}
+
+.c-sub-cornflower {
+  background-color: $sub-cornflower;
+}
+
+.c-sub-navy {
+  background-color: $sub-navy;
+}
+
+.c-sub-sapphire {
+  background-color: $sub-sapphire;
+}
+
+.c-sub-scarlet {
+  background-color: $sub-scarlet;
+}
+
+.c-sub-pink {
+  background-color: $sub-pink;
+}
+
+.c-sub-orange {
+  background-color: $sub-orange;
+}
+
+.c-sub-yellow {
+  background-color: $sub-yellow;
+}
+
+.c-sub-mint {
+  background-color: $sub-mint;
+}
+
+.c-sub-lime {
+  background-color: $sub-lime;
+}
+
+// secondary background color and element text color (for tags)
+
+.c-tag-berry {
+  background-color: $sub-light-berry;
+  color: $sub-berry;
+}
+
+.c-tag-cornflower {
+  background-color: $sub-light-cornflower;
+  color: $sub-cornflower;
+}
+
+.c-tag-navy {
+  background-color: $sub-light-navy;
+  color: $sub-navy;
+}
+
+.c-tag-sapphire {
+  background-color: $sub-light-sapphire;
+  color: $sub-sapphire;
+}
+
+.c-tag-scarlet {
+  background-color: $sub-light-scarlet;
+  color: $sub-scarlet;
+}
+
+.c-tag-pink {
+  background-color: $sub-light-pink;
+  color: $sub-pink;
+}
+
+.c-tag-orange {
+  background-color: $sub-light-orange;
+  color: $sub-orange;
+}
+
+.c-tag-yellow {
+  background-color: $sub-light-yellow;
+  color: $sub-yellow;
+}
+
+.c-tag-mint {
+  background-color: $sub-light-mint;
+  color: $sub-mint;
+}
+
+.c-tag-lime {
+  background-color: $sub-light-lime;
+  color: $sub-lime;
+}
+
+.c-tag-default {
+  background-color: $sub-light-dark;
+  color: $dark;
+}
+
+/* secondary blue background color */
+.c-sub-blue-700 {
+  background-color: $sub-blue-700;
+}
+
+.c-sub-blue-600 {
+  background-color: $sub-blue-600;
+}
+
+.c-sub-blue-500 {
+  background-color: $sub-blue-500;
+}
+
+.c-sub-blue-400 {
+  background-color: $sub-blue-400;
+}
+
+.c-sub-blue-300 {
+  background-color: $sub-blue-300;
+}
+
+.c-sub-blue-200 {
+  background-color: $sub-blue-200;
+}
+
+.c-sub-blue-100 {
+  background-color: $sub-blue-100;
+}
+
+.c-sub-blue-50 {
+  background-color: $sub-blue-50;
+}
+
+/* secondary yellow background color */
+.c-sub-yellow-700 {
+  background-color: $sub-yellow-700;
+}
+
+.c-sub-yellow-600 {
+  background-color: $sub-yellow-600;
+}
+
+.c-sub-yellow-500 {
+  background-color: $sub-yellow-500;
+}
+
+.c-sub-yellow-400 {
+  background-color: $sub-yellow-400;
+}
+
+.c-sub-yellow-300 {
+  background-color: $sub-yellow-300;
+}
+
+.c-sub-yellow-200 {
+  background-color: $sub-yellow-200;
+}
+
+.c-sub-yellow-100 {
+  background-color: $sub-yellow-100;
+}
+
+.c-sub-yellow-50 {
+  background-color: $sub-yellow-50;
+}
