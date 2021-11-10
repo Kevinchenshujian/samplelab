@@ -28,12 +28,6 @@ Example3.args = {
   themeColor: 'c-tag-yellow'
 };
 
-export const Example4 = Template.bind({});
-Example4.args = {
-  label: 'This is a Tag',
-  themeColor: 'c-tag-sapphire'
-};
-
 export const Example5 = Template.bind({});
 Example5.args = {
   label: 'This is a Tag',
